@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="practice1.html">Practice 1</a>
+        <a href="practice2.html">Practice 2</a>
+        <a href="practice3.html">Practice 3</a>
+        <a href="practice4.php">Practice 4</a>
+    </nav>
+
+    <h1>CSS Font Control</h1>
+
+    <div class="rgb-controls">
+        <h3>Paragraph color (RGB 0-255)</h3>
+        <label>R: <input type="number" id="pR" value="0" min="0" max="255"></label>
+        <label>G: <input type="number" id="pG" value="0" min="0" max="255"></label>
+        <label>B: <input type="number" id="pB" value="0" min="0" max="255"></label>
+
+        <h3>Border color (RGB 0-255)</h3>
+        <label>R: <input type="number" id="bR" value="100" min="0" max="255"></label>
+        <label>G: <input type="number" id="bG" value="100" min="0" max="255"></label>
+        <label>B: <input type="number" id="bB" value="100" min="0" max="255"></label>
+
+        <h3>Border width (px)</h3>
+        <label><input type="number" id="borderWidth" value="2" min="0" max="20"></label>
+    </div>
+
+    <p id="dummy-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <script src="practice2.js"></script>
+</body>
+</html>

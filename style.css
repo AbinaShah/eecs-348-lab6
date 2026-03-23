@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f6f3;
+    color: #333;
+}
+
+nav {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #555;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #222;
+}
+
+/* practice 1 profile */
+.profile-page { max-width: 700px; }
+.profile-main { display: flex; gap: 25px; margin: 25px 0; align-items: flex-start; }
+.profile-photo { width: 180px; height: 180px; object-fit: cover; border-radius: 8px; }
+.profile-info h2 { margin-top: 0; }
+.profile-section { margin: 25px 0; }
+.profile-section h3 { margin-bottom: 10px; }
+
+/* practice 2 rgb control */
+.rgb-controls {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.rgb-controls label { margin-right: 15px; }
+.rgb-controls input[type="number"] { width: 60px; padding: 5px; }
+#dummy-paragraph {
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    max-width: 600px;
+}
+
+/* password page */
+.password-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.password-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.password-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.error {
+    color: #c00;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.success {
+    color: #060;
+}
+
+/* multiply table */
+table {
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+table td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: right;
+    min-width: 35px;
+}
