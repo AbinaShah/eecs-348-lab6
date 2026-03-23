@@ -18,7 +18,7 @@ Web Programming: HTML, CSS, JavaScript, PHP
 
 ## Contents
 
-- **practice1.html** - EECS profile (name, photo, contact, link, video, courses, projects, experience)
+- **practice1.html** - EECS profile (name, photo, contact)
 - **practice2.html** + **practice2.js** - RGB color and border width control
 - **practice3.html** + **practice3.js** - Password verification with alerts
 - **practice4.php** - Multiplication table with row/column indexes
@@ -30,4 +30,4 @@ Add your `profile.jpg` to the folder. Edit practice1.html with your name, email,
 ## Links
 
 - GitHub: 
-- EECS People: https://people.eecs.ku.edu/~YOURID/
+- EECS People
